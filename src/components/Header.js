@@ -8,18 +8,17 @@ const header = () => {
                     <div className="d-flex h-100 flex-column justify-content-center">
                         <h1 className="w-50 text-uppercase">Rémi turini</h1>
                         <h2 className="w-50">Developpeur Web</h2>
-                        <button className="btn btn-secondary text-uppercase CVButton">découvrir mon cv</button>
+                        <button className="p-3 btn btn-secondary text-uppercase CVButton">découvrir mon cv</button>
                     </div>
                 </div>
             </div>
             <div className="container last">
-                <div className="row text-center flex-column ">
-                    <div className="mt-5 mb-4 text-uppercase title">développeur web <span className="orange-span">back end</span></div>
-                    <div className="">
+                <div className="row text-center flex-column align-items-center">
+                    <div className="mt-5 mb-4 text-uppercase title">développeur web <span className="orange-span-2">back end</span></div>
+                    <div className="titleText">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque consequat malesuada.
                         Suspendisse porttitor auctor metus, et rutrum massa tempor nec. Nam porta blandit nibh, ac feugiat dolor vulputate a.
                         Maecenas nec interdum mi. Sed varius ex at mollis ullamcorper. Nulla facilisi. Sed consequat venenatis volutpat.
-                        Cras a sem sed tellus blandit lobortis sed ut ligula. Praesent ac odio nec diam vehicula congue ut sed neque.
                     </div>
                 </div>
             </div>
