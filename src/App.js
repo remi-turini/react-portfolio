@@ -19,7 +19,7 @@ function App() {
   return (     
   <Switch>
     <div className="body">
-      <Route path="/home">
+      <Route exact path="/">
         <Navbar/>
         <Header/>
       </Route>

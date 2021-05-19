@@ -3,7 +3,7 @@ import React from 'react';
 const header = () => {
     return (
         <>
-            <div className="mb-5 header-wraper shadow">
+            <div className="mb-5 header-wraper shadow-sm">
                 <div className="container h-100 main">
                     <div className="d-flex h-100 flex-column justify-content-center">
                         <h1 className="w-50 text-uppercase">Rémi turini</h1>
