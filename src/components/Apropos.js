@@ -14,7 +14,7 @@ const apropos = () => {
                     <img src={photo} alt="profil"></img>
                 </div>
                 <div className="col-6 shortDescription">
-                    <div className="text-uppercase title">à propos de moi</div>
+                    <h1 className="text-uppercase title">à propos de moi</h1>
                     <div className="name">Remi Turini</div>
                     <div className="text-wrap">
                         J'ai 23 ans, je suis actuellement étudiant, je partage mon temps entre mes études et mes loisirs avec la pratique du VTT et du motocross.

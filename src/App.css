@@ -16,6 +16,10 @@
   color: var(--primary-black-md);
 }
 
+h1 {
+  font-weight: 800 !important;
+}
+
 .orange-span {
   color: var(--primary-orange);
 }
