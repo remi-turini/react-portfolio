@@ -26,7 +26,7 @@ const apropos = () => {
             </div>
         </div>
         </div>
-        {/* <div className="container formation">
+        <div className="container formation">
                 <section class="page-section" id="about">
                 <div class="container">
                     <div class="mb-5 text-center">
@@ -68,7 +68,7 @@ const apropos = () => {
                     </ul>
                 </div>
             </section>
-        </div> */}
+        </div>
         </>
     )
 }
