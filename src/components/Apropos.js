@@ -11,11 +11,11 @@ const apropos = () => {
         <div className="container">
             <div className="row aPropos">
                 <div className="col-6">
-                    <img src={photo} alt="profil"></img>
+                    <img src={photo} alt="remi turini"></img>
                 </div>
                 <div className="col-6 shortDescription">
                     <h1 className="text-uppercase title">à propos de moi</h1>
-                    <div className="name">Remi Turini</div>
+                    <h2 className="name">Remi Turini</h2>
                     <div className="text-wrap">
                         J'ai 23 ans, je suis actuellement étudiant, je partage mon temps entre mes études et mes loisirs avec la pratique du VTT et du motocross.
                          Après mon baccalauréat scientifique je me suis inscris à l'université en informatique. Le cursus proposé ne m'a pas convenu,

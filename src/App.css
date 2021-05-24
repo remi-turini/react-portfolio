@@ -162,12 +162,13 @@ a.nav-link {
   font-size: 2.5rem;
 }
 
-.container > .row > .shortDescription > .name{
+.container > .row > .shortDescription > h2 {
   font-size: 2rem;
   font-family: 'Rock Salt';
+  font-weight: 800;
   color: var(--primary-orange);
   position: relative;
-  bottom: 1.5rem;
+  bottom: 1.4rem;
 }
 
 .formation {
