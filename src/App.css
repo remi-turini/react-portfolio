@@ -87,6 +87,7 @@ a.nav-link {
   width: 190px;
   font-weight: 400;
   background-color: var(--primary-black-md);
+  text-decoration: none;
 }
 
 .last > div > .title {

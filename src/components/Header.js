@@ -1,4 +1,5 @@
 import React from 'react';
+import CV from '../CV_Remi_Turini.pdf'
 
 const header = () => {
     return (
@@ -8,7 +9,7 @@ const header = () => {
                     <div className="d-flex h-100 flex-column justify-content-center">
                         <h1 className="w-50 text-uppercase">Rémi turini</h1>
                         <h2 className="w-50">Developpeur Web</h2>
-                        <button className="p-3 btn btn-secondary text-uppercase CVButton">découvrir mon cv</button>
+                        <a href={CV} download className="p-3 btn btn-secondary text-uppercase CVButton" >découvrir mon cv</a>
                     </div>
                 </div>
             </div>
