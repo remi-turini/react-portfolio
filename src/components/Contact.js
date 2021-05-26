@@ -28,7 +28,7 @@ const Contact = () => {
                         <div class="mb-4">
                             <textarea class="form-control" id="formControlTextarea1" rows="3"></textarea>
                         </div>
-                        <button type="submit" className="text-uppercase btn btn-secondary rounded-pill">Envoyer</button>
+                        <button type="submit" disabled className="text-uppercase btn btn-secondary rounded-pill">Envoyer</button>
                     </form>
             </div>
         </section>
