@@ -94,6 +94,7 @@ a.nav-link {
 
 .last > div > .titleText {
   font-weight: 400;
+  font-size: 1.3rem;
   width: 60%;
 }
 
@@ -177,15 +178,15 @@ a.nav-link {
 
 /******************************* CONTACT ********************************/
 
-.contact > div {
+.contact-page > div {
   height: 30vh;
 }
 
-.contact > div > .leftText {
+.contact-page > div > .leftText {
   font-size: 1.2rem;
 }
 
-.contact > div > div > .title{
+.contact-page > div > div > .title{
   font-size: 4rem;
 }
 

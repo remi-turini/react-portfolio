@@ -9,10 +9,10 @@ import Apropos from "./components/Apropos";
 import Contact from "./components/Contact";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faShoppingCart, faCommentDots } from '@fortawesome/free-solid-svg-icons';
+import { fab, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faShoppingCart, faCommentDots, faTachometerAlt, faBriefcase, } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faShoppingCart, faCommentDots);
+library.add(fab, faShoppingCart, faCommentDots, faTachometerAlt, faBriefcase, faGithub, faLinkedin);
 
 function App() {
   

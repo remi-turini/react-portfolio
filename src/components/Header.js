@@ -16,9 +16,8 @@ const header = () => {
                 <div className="row text-center flex-column align-items-center">
                     <div className="mt-5 mb-4 text-uppercase title">développeur web <span className="orange-span-2">back end</span></div>
                     <div className="titleText">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque consequat malesuada.
-                        Suspendisse porttitor auctor metus, et rutrum massa tempor nec. Nam porta blandit nibh, ac feugiat dolor vulputate a.
-                        Maecenas nec interdum mi. Sed varius ex at mollis ullamcorper. Nulla facilisi. Sed consequat venenatis volutpat.
+                        Développeur depuis maintenant environ 1 an, le développement back-end m'interesse plus particuliérement. J'ai travaillé sur de nombreux projets dans différents language tel que PHP, Java, NodeJS, ou encore PHP/Symfony.
+                        Je souhaite aujourd'hui apprendre encore d'avantage sur ces languages web et apporter mes connaissances sur des projets concrets.
                     </div>
                 </div>
             </div>
