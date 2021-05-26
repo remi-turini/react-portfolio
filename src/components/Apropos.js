@@ -9,11 +9,11 @@ const apropos = () => {
         <>
         <div className="container-fluid shadow p-5">
         <div className="container">
-            <div className="row aPropos">
+            <div className="row flex-column flex-lg-row aPropos">
                 <div className="col-6">
                     <img src={photo} alt="remi turini"></img>
                 </div>
-                <div className="col-6 shortDescription">
+                <div className="col-lg-6 col-12 shortDescription">
                     <h1 className="text-uppercase title">à propos de moi</h1>
                     <h2 className="name">Remi Turini</h2>
                     <div className="text-wrap">

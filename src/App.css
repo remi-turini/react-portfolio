@@ -127,33 +127,67 @@ a.nav-link {
   border-color: var(--primary-orange) white;
 }
 
-.divProjects > div > div {
+.project-box {
   background-color: var(--primary-black-md);
   color: var(--primary-white-md);
   padding: 3rem 4rem 3rem 4rem;
+  border-radius: 35px;
+  margin-top: 4rem;
+  transition: all 1s;
 }
 
-.divProjects > div > div > div {
+.project-box:hover {
+  box-shadow: 15px 10px 5px lightgray;
+}
+
+.project-box > div {
   padding-bottom: 1rem;
 }
 
-.divProjects > div > div > .text-uppercase {
+.project-box > .text-uppercase {
   font-size: 2rem;
 }
 
-.divProjects > div > div > a {
-  border-radius: 0px !important;
-}
-
-.divProjects > div > div > a:hover {
+.project-box > a:hover {
   color: var(--primary-orange);
 }
 
-.divProjects > .lowerLink > a {
-  font-size: 1.3rem;
+.mes-projets-page > .lowerLink > a {
+  font-size: 1.4rem;
+  transition: all 0.5s;
 }
 
+.mes-projets-page > .lowerLink > a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
+.mes-projets-page > .lowerLink > a span:after {
+  content: '\00bb';
+  color: var(--primary-orange);
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.mes-projets-page > .lowerLink > a:hover span {
+  padding-right: 25px;
+}
+
+.mes-projets-page > .lowerLink > a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media only screen and (min-width: 991px) {
+  .right-project-box {
+    margin-top: 5rem;
+  }
+}
 
 
 /******************************* A PROPOS ********************************/
@@ -179,7 +213,7 @@ a.nav-link {
 /******************************* CONTACT ********************************/
 
 .contact-page > div {
-  height: 30vh;
+  height: 70vh;
 }
 
 .contact-page > div > .leftText {
