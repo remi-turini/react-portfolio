@@ -5,9 +5,9 @@ import BTSLogo from '../img/2.jpg'
 import BacLogo from '../img/3.jpg'
 import SymfonyLogo from '../img/symfonyLogo.svg'
 import Atom from '../img/atom.svg'
-import NodeLogo from '../img/nodeLogo.svg'
+import NodeLogo from '../img/node.png'
 import MysqlLogo from '../img/MysqlLogo.png'
-import DockerLogo from '../img/docker.svg'
+import DockerLogo from '../img/docker.png'
 
 const apropos = () => {
     return (
