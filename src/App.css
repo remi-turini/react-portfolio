@@ -4,7 +4,8 @@
 :root {
   --primary-color: #404040;
   --primary-orange: #f08700;
-  --primary-light-orange: #f088004f;
+  --primary-light-orange1: #f08800c2;
+  --primary-light-orange2: #f088004f;
   --primary-black: rgb(255, 255, 255, 0);
   --primary-black-md: #404040;
   --primary-white-md: rgb(236, 236, 236);
@@ -60,7 +61,7 @@ a.nav-link {
 /******************************* HEADER ********************************/
 
 .header-wraper {
-  background: url(Fond-section-1.jpg) no-repeat;
+  background: url(img/Fond-section-1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -209,10 +210,48 @@ a.nav-link {
 }
 
 .formation {
-  margin-top: 9rem;
+  margin-top: 10rem;
+}
+
+.competences {
+  margin-top: 10rem;
+}
+
+.competences > div > .main-col-left > p {
+  width: 85%;
+}
+
+.competences > div > .main-col-left > .progress {
+  width: 85%;
+  margin-bottom: 2.5rem;
+  color: red !important;
+}
+
+.competences > div > .main-col-left > .progress > .progress-bar {
+  background-color: var(--primary-light-orange1);
+}
+
+.competences > div > .main-col-right > div > img {
+  margin-bottom: 3rem;
+  box-shadow: 3px 10px 40px rgba(167, 157, 157, 0.404), -3px 0px 5px rgba(167, 157, 157, 0.404);
+  width: 240px;
+  height: 200px;
+  border-radius: 30px;
+  padding: 40px
+}
+
+.competences > div > .main-col-right > .image-col-right {
+  margin-top: 4rem;
 }
 
 /******************************* CONTACT ********************************/
+
+.contact-page-background {
+  background: url(img/Fond-contact.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
 
 .contact-page > div {
   height: 70vh;

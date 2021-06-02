@@ -1,7 +1,7 @@
 import React from 'react';
 import CV from '../CV_Remi_Turini.pdf'
 
-const header = () => {
+const accueil = () => {
     return (
         <>
             <div className="mb-5 header-wraper shadow-sm">
@@ -26,4 +26,4 @@ const header = () => {
     )
 }
 
-export default header
+export default accueil

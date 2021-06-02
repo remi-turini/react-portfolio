@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free';
 import React from 'react';
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import Accueil from "./components/Accueil";
 import Mesprojets from "./components/Mesprojets";
 import Apropos from "./components/Apropos";
 import Contact from "./components/Contact";
@@ -21,7 +21,7 @@ function App() {
       <Switch>
         <div className="body">
           <Route path="/" component={Navbar}/>
-          <Route exact path="/" component={Header}/>
+          <Route exact path="/" component={Accueil}/>
           <Route path="/mesprojets" component={Mesprojets}/>
           <Route path="/apropos" component={Apropos}/>
           <Route path="/contact" component={Contact}/>
